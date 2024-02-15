@@ -1,0 +1,19 @@
+.item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #5A5A5A;
+}
+
+.tasks {
+    display: flex;
+    gap: 10px;
+}
+
+.trash-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.item-wrapper:hover .trash-icon {
+    display: block;
+}

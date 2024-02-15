@@ -1,0 +1,44 @@
+.todo-wrapper {
+    width: 983px;
+    margin: 50px auto;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+}
+
+.sidebar {
+    width: 209px;
+    border-right: 1px solid #EA5959;
+    padding: 100px 0;
+    padding-left: 50px;
+}
+
+.main {
+    width: 774px;
+    padding: 40px;
+}
+
+.list{
+    list-style: none;
+    font-size: 22px;
+    color: #525252;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list li{
+    cursor: pointer;
+}
+
+
+.list li:hover{
+    color: #EA5959;
+    text-decoration: underline;
+}
+
+.main h2{
+    font-size: 31px;
+    margin-bottom: 20px;
+}
+

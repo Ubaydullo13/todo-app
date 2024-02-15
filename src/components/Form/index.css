@@ -1,0 +1,12 @@
+.field {
+    width: 100%;
+    padding: 15px;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.field::placeholder {
+    color: #B5B5B5;
+}
